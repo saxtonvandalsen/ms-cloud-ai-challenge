@@ -35,3 +35,4 @@
 /workspaces/ms-cloud-ai-challenge/obj/Debug/net8.0/ms-cloud-ai-challenge.csproj.AssemblyReference.cache
 /workspaces/ms-cloud-ai-challenge/obj/Debug/net8.0/ms-cloud.25B8A4D6.Up2Date
 /workspaces/ms-cloud-ai-challenge/bin/Debug/net8.0/Azure.AI.OpenAI.dll
+/workspaces/ms-cloud-ai-challenge/obj/Debug/net8.0/ms-cloud-ai-challenge.sourcelink.json
