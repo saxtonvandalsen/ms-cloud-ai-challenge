@@ -38,8 +38,13 @@
     string caption = "";
     void Analyze()
     {
-        string endpoint = Environment.GetEnvironmentVariable("VISION_ENDPOINT");
-        string key = Environment.GetEnvironmentVariable("VISION_KEY");
+        string? endpoint = Environment.GetEnvironmentVariable("VISION_ENDPOINT");
+        string? key = Environment.GetEnvironmentVariable("VISION_KEY");
+
+        if (string.IsNullOrEmpty(endpoint) || string.IsNullOrEmpty(key))
+        {
+        throw new InvalidOperationException("VISION_ENDPOINT or VISION_KEY is not set in the environment variables.");
+        }
 
         ImageAnalysisClient client = new ImageAnalysisClient(
             new Uri(endpoint),
