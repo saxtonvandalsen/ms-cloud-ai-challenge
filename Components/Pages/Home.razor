@@ -32,14 +32,16 @@
     }
 </style>
 
+@inject IConfiguration Configuration
+
 @code
 {
     string urlOrPrompt = "";
     string caption = "";
     void Analyze()
     {
-        string? endpoint = Environment.GetEnvironmentVariable("VISION_ENDPOINT");
-        string? key = Environment.GetEnvironmentVariable("VISION_KEY");
+        string? endpoint = Configuration("AzureAIVision:Endpoint");
+        string? key = Configuration("AzureAIVision:Key");
 
         if (string.IsNullOrEmpty(endpoint) || string.IsNullOrEmpty(key))
         {

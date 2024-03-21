@@ -32,6 +32,17 @@ jobs:
           # api_location: "Api"  Api source code path - optional
           output_location: "wwwroot" # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
+        env:
+            AZURE_AI_VISION_KEY: ${{ secrets.AZURE_AI_VISION_KEY }}
+            AZURE_AI_VISION_ENDPOINT: ${{ secrets.AZURE_AI_VISION_ENDPOINT }}
+      - name: Generate appsettings.json
+        run: |
+              echo '{
+                "AzureAIVision": {
+                  "Key": "${{ secrets.AZURE_AI_VISION_KEY }}",
+                  "Endpoint": "${{ secrets.AZURE_AI_VISION_ENDPOINT }}"
+                }
+              }' > wwwroot/appsettings.json
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
