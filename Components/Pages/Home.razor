@@ -11,9 +11,9 @@
 
 <h1>Computer Vision</h1>
 
-<p>Insert URL or type prompt:</p>
+<p>Insert an image to be displayed and computer vision will return a brief description:</p>
 
-<textarea @bind="urlOrPrompt" rows="1" cols="50" placeholder="Enter a URL to analyze an image"></textarea>
+<textarea @bind="urlOrPrompt" rows="1" cols="50" placeholder="Enter a .png file or .jpg file: "></textarea>
 
 <div class="button-container">
     <button @onclick="Analyze">Analyze</button>
@@ -40,12 +40,12 @@
     string caption = "";
     void Analyze()
     {
-        string? endpoint = Configuration("AzureAIVision:Endpoint");
-        string? key = Configuration("AzureAIVision:Key");
+        string? endpoint = Configuration["AzureAIVision:Endpoint"];
+        string? key = Configuration["AzureAIVision:Key"];
 
         if (string.IsNullOrEmpty(endpoint) || string.IsNullOrEmpty(key))
         {
-        throw new InvalidOperationException("VISION_ENDPOINT or VISION_KEY is not set in the environment variables.");
+        throw new InvalidOperationException("AzureAIVision:Endpoint or AzureAIVision:Key is not set in the configuration.");
         }
 
         ImageAnalysisClient client = new ImageAnalysisClient(
