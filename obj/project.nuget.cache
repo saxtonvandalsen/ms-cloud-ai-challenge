@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "a2HZXxjT/QTw6KBMq4Jn9UsRWYs5oO27gF1B6M3Tx2eHsD+HvVPDwt+zQi8mZSUVssYZHokEHOXNPxjyCGz2Ew==",
+  "dgSpecHash": "WXwUofYWkWfz2+0Hs4LZhGhRfZZEpHutq1Zpl85C7lu5lfGzr3JaFR9oDaZsUz0E+0Ids6agy9+SpX4Z1XPcqg==",
   "success": true,
   "projectFilePath": "/workspaces/ms-cloud-ai-challenge/ms-cloud-ai-challenge.csproj",
   "expectedPackageFiles": [
@@ -16,9 +16,9 @@
     "/home/vscode/.nuget/packages/system.text.encodings.web/4.7.2/system.text.encodings.web.4.7.2.nupkg.sha512",
     "/home/vscode/.nuget/packages/system.text.json/4.7.2/system.text.json.4.7.2.nupkg.sha512",
     "/home/vscode/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "/home/vscode/.nuget/packages/microsoft.netcore.app.ref/6.0.27/microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
-    "/home/vscode/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.27/microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512",
-    "/home/vscode/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.27/microsoft.netcore.app.host.linux-x64.6.0.27.nupkg.sha512"
+    "/home/vscode/.nuget/packages/microsoft.netcore.app.ref/7.0.16/microsoft.netcore.app.ref.7.0.16.nupkg.sha512",
+    "/home/vscode/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.16/microsoft.aspnetcore.app.ref.7.0.16.nupkg.sha512",
+    "/home/vscode/.nuget/packages/microsoft.netcore.app.host.linux-x64/7.0.16/microsoft.netcore.app.host.linux-x64.7.0.16.nupkg.sha512"
   ],
   "logs": []
 }
