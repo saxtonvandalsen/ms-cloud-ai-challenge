@@ -33,8 +33,8 @@ jobs:
           output_location: "wwwroot" # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
         env:
-            AZURE_AI_VISION_KEY: ${{ secrets.AZURE_AI_VISION_KEY }}
-            AZURE_AI_VISION_ENDPOINT: ${{ secrets.AZURE_AI_VISION_ENDPOINT }}
+            AzureAIVision__Key: ${{ secrets.AZURE_AI_VISION_KEY }}
+            AzureAIVision__Endpoint: ${{ secrets.AZURE_AI_VISION_ENDPOINT }}
       - name: Generate appsettings.json
         run: |
               echo '{
