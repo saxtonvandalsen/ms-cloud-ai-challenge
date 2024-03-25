@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ms-cloud-ai-challenge")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+792ae08e78d5a0ff9b990bc9fa0219c1f73537bc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+58f51420fe2ed71cce3ad6997e1f7320f8e8a702")]
 [assembly: System.Reflection.AssemblyProductAttribute("ms-cloud-ai-challenge")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ms-cloud-ai-challenge")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
