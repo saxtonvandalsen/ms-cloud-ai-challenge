@@ -4,7 +4,7 @@
 
 The Cloud AI Challenge project aims to integrate image analysis capabilities using computer vision technology. Leveraging Azure cloud services, the project enables AI-powered computer vision to analyze .png and .jpg image files via their URLs. The project is implemented as a .NET 8 Blazor web application and utilizes Docker with a development container in Visual Studio Code for local deployment.
 
-#### Key Components
+#### Key Components:
 
 - **Azure Cloud Services**: Leveraged Azure cloud services for hosting and enabling cognitive services, specifically for AI-powered computer vision.
 - **Cognitive Services**: Enabled image analysis using Azure Cognitive Services, facilitating the analysis of .png and .jpg image files through their URLs.
@@ -13,6 +13,6 @@ The Cloud AI Challenge project aims to integrate image analysis capabilities usi
 - **Visual Studio Code**: Employed Visual Studio Code with a development container setup for local development and testing of the web application.
 - **Azure.AI.Vision.ImageAnalysis Package**: Incorporated the Azure.AI.Vision.ImageAnalysis package to facilitate image analysis functionality within the project.
 
-#### Work-in-Progress
+#### Work-in-Progress:
 
-Currently working on adding Continuous Integration and Continuous Deployment (CI/CD) capabilities to this project using GitHub Actions. My goal is to automate the build, test, and deployment processes to streamline development and ensure code quality. I plan providing updates and continually improving this project!
+Currently working on adding Continuous Integration and Continuous Deployment (CI/CD) capabilities to this project using GitHub Actions. My goal is to automate the build, test, and deployment processes to streamline development and ensure code quality. This is my first attempt with GitHub Actions and CI/CD. I plan providing updates and continually improving this project!
